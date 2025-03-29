@@ -1,5 +1,5 @@
 <div class="p-5 bg-gray-100 border border-gray-300 rounded-md card">
-    <p class="pb-2 ml-1 font-semibold">Cadastro Detalhes do Plano: {{ $plan->name }}</p>
+    <p class="pb-2 ml-1 font-semibold">Cadastro Detalhes do Plano:</p>
     <hr>
   
     <form class="w-full max-w-sm" wire:submit.prevent="salvar">

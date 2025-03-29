@@ -38,9 +38,9 @@
                             <td class="w-2/12 text-right p-2">
                                 <div class="flex justify-end gap-2">
                                     {{-- @dd($plan->id) --}}
-                                    {{-- <a href="{{ route('details.index', $plan->id) }}"  title="Detalhes do Plano">
+                                    <a href="{{ route('details.index', $plan->id) }}"  title="Detalhes do Plano">
                                         <img src="{{ asset('assets/images/planejamento.png') }}" title="Gestão de Detalhes do Plano" class="size-5" style="cursor: pointer;">
-                                    </a> --}}
+                                    </a>
                                     <!-- Botão Editar -->
                                     <a href="{{ route('plans.edit', $plan->id) }}" title="Alterar registro">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-blue-500">

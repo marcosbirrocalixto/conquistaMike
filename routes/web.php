@@ -24,7 +24,6 @@ Route::get('/detailsPlan/{id}/edit', EditDetailsPlan::class)->name('detailsPlan.
 Route::get('/plan', PlanMainComponent::class)->name('plan.index');
 Route::get('/plans/{id}/delete', DeletePlan::class)->name('plans.delete');
 Route::get('/plans/{id}/edit', EditPlan::class)->name('plans.edit');
-Route::get('/plans/{id}/edit', CreatePlan::class)->name('plans.edit');
 //Fim Routes Plans
 
 //Routes Users
